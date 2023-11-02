@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="equip_add_listArray">
+        <item>3단철봉</item>
+        <item>구름사다리</item>
+        <item>로프당기기</item>
+        <item>어깨유연성운동</item>
+        <item>역기내리기</item>
+        <item>역기대</item>
+        <item>역기올리기</item>
+        <item>윗몸일으키기</item>
+        <item>철봉</item>
+        <item>팔굽혀펴기</item>
+        <item>공중걷기</item>
+        <item>노젓기</item>
+        <item>달리기</item>
+        <item>레그프레스</item>
+        <item>스텝퍼</item>
+        <item>오금펴기</item>
+        <item>자전거</item>
+        <item>파도타기</item>
+        <item>거꾸로 매달리기</item>
+        <item>평행봉</item>
+        <item>등허리근육펴기</item>
+        <item>등허리지압기</item>
+        <item>상체근육풀기</item>
+        <item>하체근육풀기</item>
+        <item>허리돌리기</item>
+    </string-array>
+</resources>

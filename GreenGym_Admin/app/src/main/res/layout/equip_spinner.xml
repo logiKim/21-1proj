@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/green_button"
+        android:text="운동기구 추가"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="카테고리"
+            android:textSize="15dp"
+            android:gravity="center" />
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/equip_spinner"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:spinnerMode="dropdown"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/equip_cancel"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/gray"
+            android:text="닫기"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/real_add"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="180dp"
+            android:background="@drawable/green_button"
+            android:text="추가"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

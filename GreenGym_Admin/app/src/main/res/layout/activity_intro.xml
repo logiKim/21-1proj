@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".IntroActivity">
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:background="@drawable/green_gym"
+        android:text="Green Gym"
+        android:textColor="@color/green"
+        android:textSize="55dp"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="관리자용"
+        android:textSize="30dp" />
+
+</LinearLayout>

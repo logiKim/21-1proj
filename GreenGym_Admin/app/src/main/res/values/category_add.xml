@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_add_ListArray">
+        <item>상체</item>
+        <item>하체</item>
+        <item>전신</item>
+        <item>스트레칭</item>
+    </string-array>
+
+</resources>
